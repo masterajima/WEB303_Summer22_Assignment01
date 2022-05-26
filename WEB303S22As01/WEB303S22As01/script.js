@@ -27,8 +27,8 @@ $('document').ready(function(){
 	$("ul#price-list").text('',totalTax);
 	}
 	
-	window.onload=function(){
-		$('#calculate').onclick=processEntries();
+	//window.onload=function(){
+		//$('#calculate').onclick=processEntries();
 	}
 	/*
 	$("form").on('keyup','#price',function(){

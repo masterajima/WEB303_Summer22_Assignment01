@@ -30,8 +30,8 @@ function calculateTax(){
 		//add price+tax as list item to button
         $('this').find('#tax').append('<li>'+totalTax+'</li>').val();
         let subTotal=totalTax.toFixed(2);
-        $("#tax").apend('',+totalTax);
-        $("ul#price-list").append(('',+subTotal-tax).toFixed(2));
+        $("#tax").html('',+totalTax);
+        $("ul#price-list").html(('',+subTotal-tax).toFixed(2));
         	
 }
 

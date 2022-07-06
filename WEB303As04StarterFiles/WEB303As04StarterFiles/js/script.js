@@ -9,7 +9,7 @@ $(function () {
     var $activeTabLink = $activeTab.find("a"); // Get its link
     var $activePanelId = $activeTabLink.attr("href"); // Get the id value of the panel
     var $activePanel = $($activePanelId); // Get active panel
-    // var $activePanel = $('#tab1'); // select Magnus's panel
+    // var $activePanel = $('#tab1'); // select 
     $this.on("click", ".tab-control", function (e) {
       // Click tab
       e.preventDefault(); // Prevent link
